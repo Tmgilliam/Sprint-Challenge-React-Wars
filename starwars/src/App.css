@@ -1,8 +1,68 @@
 .App {
-  text-align: center;
+  text-align: justify;
+  text-emphasis: bold;
+  text-anchor: middle;
+  text-size-adjust: 24px;
+  font-weight: bold;
+  font-family: 'Star Jedi', arial;
+  border: 20px outset rgb(0, 128, 32);
+  border-radius: 25px 100px;
+  margin: 3%;
+  box-shadow: 5px 5px;
+  color: rgb(0, 44, 190);
+  border-bottom: 5px solid blueviolet;
+  padding-bottom: 6%;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  text-align: center;
+  color: #ad0d45;
+  text-shadow: 5px 6px 5px rgb(10, 230, 138);
+  font-weight: bold;
+  font-size: 100px;
+  font-family: 'Star Jedi', arial;
+  text-decoration: 'Star Jedi', arial;
+  border-bottom: 5px solid grey;
+  padding-bottom: 3%;
+  /* <!-- tried to change the font on header but style is not taking --> */
 }
+h1{
+  text-align: center;
+  color: #ad0d45;
+  text-shadow: 5px 6px 5px rgb(10, 230, 138);
+  font-weight: bold;
+  font-size: 100px;
+  font-family: 'Star Jedi', arial;
+  text-decoration: 'Star Jedi', arial;
+  border-bottom: 5px solid grey;
+  padding-bottom: 3%;
+}
+
+
+.div {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Star Jedi', arial;
+  background: gray;
+  padding: 50px;
+  
+}
+
+
+.CharacterList {
+  background: gray;
+}
+
+.return {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.CharacterList {
+  cursor: pointer;
+}
+
 /* write your parent styles in here for your App.js */
