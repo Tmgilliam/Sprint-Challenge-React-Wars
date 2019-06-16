@@ -4,28 +4,26 @@ import React from "react";
 // import StarwarsCharactersComponents from "./StarwarsCharactersComponents";
 
 const CharacterList = (props) => {
-    console.log(props)
-    console.log(props.CharacterList)
+  console.log(props)
+  console.log(props.characters)
   return (
     <div>
-      {props.CharacterList.map(char => (
+      {props.characters.map(char => (
         // <CharacterList char={starwarsChar} />
-        <div>
+        <div className='characterCard'>
           <div>{char.name}</div>
-          <div>{char.height}</div>
-          <div>{char.birth_year}</div>
-          <div>{char.created}</div>
-          <div>{char.hair_color}</div>
-          <div>{char.homeworld}</div>
-          <div>{char.mass}</div>
-          <div>{char.skin_color}</div>
-          <div>{char.gender}</div>
-          <div>{char.eye_color}</div>
-          {/* <div>{char.films}</div>
-          <div>{char.species}</div>
-          <div>{char.starships}</div>
-          <div>{char.vehicles}</div> */}
+          <div className='attributes'>
+            <div>{char.height}</div>
+            <div>{char.birth_year}</div>
+            <div>{char.created}</div>
+            <div>{char.hair_color}</div>
+            <div>{char.homeworld}</div>
+            <div>{char.mass}</div>
+            <div>{char.skin_color}</div>
+            <div>{char.gender}</div>
+            <div>{char.eye_color}</div>
           </div>
+        </div>
 
       ))}
     </div>
